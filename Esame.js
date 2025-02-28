@@ -427,17 +427,17 @@ console.log(sumAllTheYears(movies));
 */
 // NON SO PER QUALE MOTIVO MI PORTA RIGA 433 INCLUDES IS NOT DEFINED
 
-/*const searchByTitle = function (str1) {
+const searchByTitle = function (str1) {
   const titlePushed = [];
   for (let i = 0; i < movies.length; i++) {
-    if (movies[i].title.includes(str1)) {
+    if (movies[i].Title.includes(str1)) {
       titlePushed.push(movies[i]);
     }
   }
   return titlePushed;
 };
 
-console.log(searchByTitle("Avengers"));*/
+console.log(searchByTitle("Avengers"));
 
 /* ESERCIZIO 18
   Scrivi una funzione chiamata "searchAndDivide" che riceve una stringa come parametro e ritorna un oggetto contenente due array: "match" e "unmatch".
